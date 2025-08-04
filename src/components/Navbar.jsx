@@ -62,7 +62,7 @@
 
 import React, { useState } from "react";
 import { BsFillTelephoneFill } from 'react-icons/bs';
-import logo from './alshadii.png';
+import logo from './saslogo.png';
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);

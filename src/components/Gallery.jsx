@@ -4,20 +4,24 @@ import "aos/dist/aos.css";
 
 const galleryItems = [
   {
-    title: "Statuario Marble",
-    image: "https://i.pinimg.com/736x/9f/fc/1a/9ffc1aaee82959aaeea5ad9e5ac09f0d.jpg",
+    title: "Gypsum False Ceiling",
+    image: "https://5.imimg.com/data5/SELLER/Default/2025/5/512357202/WP/FO/FI/5715319/pvc-laminated-gypsum-ceiling-tiles.jpg",
   },
   {
-    title: "Spider Green Marble",
-    image: "https://i.pinimg.com/736x/34/35/67/343567779735a86b009f84cf872c9024.jpg",
+    title: "Gypsum Design Cornice",
+    image: "https://tiimg.tistatic.com/fp/1/001/005/gypsum-cornices-837.jpg",
   },
   {
-    title: "Fantasy Brown Marble",
-    image: "https://i.pinimg.com/736x/06/6a/00/066a0050f21e7fd32667f45b6448b578.jpg",
+    title: "Gypsum Plain Cornice",
+    image: "https://5.imimg.com/data5/HV/HG/VX/SELLER-4321507/crown-molding-gypsum-cornice.jpg",
   },
   {
-    title: "Makrana Pink Marble",
-    image: "https://i.pinimg.com/736x/80/e7/1e/80e71e0b6dd3a4f89f22922739a1ac3e.jpg",
+    title: "Gypsum Sheet",
+    image: "https://s.alicdn.com/@sc04/kf/H205cb7115d4e49cfa582dec4ffbd17e2w/12.5mm-1200x2400mm-brown-tile-gypsum-board-partition-construction-materials-gypsum-thermal-insulation-board.jpg_300x300.jpg",
+  },
+  {
+    title: "Gypsum Flower Design",
+    image: "https://5.imimg.com/data5/SELLER/Default/2023/10/351017511/VK/NX/OO/183222935/gypsum-ceiling-flowers-500x500.jpg",
   },
 ];
 
@@ -34,7 +38,7 @@ const GallerySection = () => {
     <div className="bg-white py-12 px-4 md:px-12">
       <div className="text-center">
         <h2 className="text-4xl font-bold text-gray-800 relative inline-block">
-          Gallery
+          Gypsum Products
           <span className="block w-16 h-1 bg-red-500 mx-auto mt-2"></span>
         </h2>
       </div>
@@ -52,7 +56,8 @@ const GallerySection = () => {
                 alt={item.title}
                 className="w-full transform transition duration-500 hover:scale-110 object-cover"
               />
-              <div className="p-4 flex items-center">
+              
+              <div className="p-4 flex items-center mt-2">
                 <div className="w-3 h-3 bg-red-500 rounded-full mr-2"></div>
                 <h3 className="text-lg font-semibold">{item.title}</h3>
               </div>
@@ -62,10 +67,10 @@ const GallerySection = () => {
 
         <div className="p-4 text-center mt-8">
           <a
-            href="/marble"
-            target="_blank"
+            href="/gypsum"
+            // target="_blank"
             rel="noopener noreferrer"
-            className="text-white bg-red-500 hover:bg-red-600 transition-all duration-300 px-6 py-3 rounded-full text-lg font-medium"
+            className="text-white bg-red-500 hover:bg-red-600 transition-all duration-300 px-6 py-6 rounded-full text-lg font-medium"
           >
             See More
           </a>

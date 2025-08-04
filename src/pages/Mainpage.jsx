@@ -28,11 +28,11 @@ function Mainpage() {
     <WhatsAppChatBox/>
     <Home/>
     <CompanySection/>
-    <GallerySection/> 
      <MarbleCollection/>
+    {/* <GallerySection/>  */}
     <Quartz/>
-    <TrustedCertified/>
-    <EventsSection/>
+    {/* <TrustedCertified/> */}
+    {/* <EventsSection/> */}
     <VisitShowroom/>
     <Footer/>
 

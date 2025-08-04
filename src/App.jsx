@@ -12,7 +12,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Mainpage />} />
        <Route path='/imported' element={<EventMore/>}/>
-       <Route path='/marble' element={<MarbleMore/>}/>
+       <Route path='/gypsum' element={<MarbleMore/>}/>
        <Route path='/granite' element={<GraniteMore/>}/>
        <Route path='/quartz' element={<QuartzMore/>}/>
 

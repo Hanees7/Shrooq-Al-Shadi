@@ -8,7 +8,7 @@ const VisitShowroom = () => {
   }, []);
 
   return (
-    <div id="contact" className="bg-white mb-8 px-6 md:px-16 text-center">
+    <div id="contact" className="bg-white mb-8 px-6 md:px-16 text-center mt-10">
       <h2 className="text-4xl font-bold text-gray-800 relative inline-block">
         Visit Our Showroom
         <span className="block w-16 h-1 bg-red-500 mx-auto mt-2"></span>
@@ -25,14 +25,14 @@ Our expert team is ready to guide you through the selection process and help you
 
 
       </p>
-
+{/* 
       <h3
         className="mt-10 text-xl md:text-2xl font-semibold text-gray-900"
         data-aos="fade-up"
         data-aos-delay="400"
       >
         Ready to get started on your next project?
-      </h3>
+      </h3> */}
 
       <div className="mt-6" data-aos="fade-up" data-aos-delay="600">
         <a
@@ -40,7 +40,7 @@ Our expert team is ready to guide you through the selection process and help you
           target="_blank"
           rel="noopener noreferrer"
         >
-          <button className="bg-black cursor-pointer text-white px-6 py-3 rounded-md shadow-lg transition-transform transform hover:scale-105">
+          <button className="bg-[#274f79] cursor-pointer text-white font-bold px-6 py-3 rounded-md shadow-lg transition-transform transform hover:scale-105">
             Contact Us
           </button>
         </a>

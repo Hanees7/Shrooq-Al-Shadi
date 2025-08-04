@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { Link } from "react-router-dom";
+import GallerySection from "./Gallery";
 
 
 const MarbleCollection = () => {
@@ -28,20 +29,21 @@ const MarbleCollection = () => {
   ];
 
   return (
-    <div className="bg-white mb-24">
+    <div className="bg-white">
       <div className="text-center py-12 bg-gray-100">
-        <h2 className="text-4xl font-bold text-gray-800">Granite Collections</h2>
+        <h2 className="text-4xl font-bold text-gray-800">Shrooq Al Shadi Collections</h2>
       </div>
 
-      <div className="max-w-4xl mx-auto text-center p-6">
+        <GallerySection/> 
+      {/* <div className="max-w-4xl mx-auto text-center p-6">
         <h3 className="text-3xl text-red-500 font-semibold">Popular Granite</h3>
         <p className="text-gray-600 mt-4">
           Discover our exquisite collection of premium granite, including Alaska White, Titanium Black, and Sunset Canyon Granite. Each piece is crafted to bring elegance and durability to your spaces.
         </p>
-      </div>
+      </div> */}
 
       {/* Responsive Grid Layout */}
-      <div className="mx-auto max-w-3/4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3  gap-6">
+      {/* <div className="mx-auto max-w-3/4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3  gap-6">
         {marbleData.map((marble, index) => (
           <div
             key={index}
@@ -55,8 +57,8 @@ const MarbleCollection = () => {
           </div>
         ))}
 
-      </div>
-      <div className="p-4 text-center mt-8">
+      </div> */}
+      {/* <div className="p-4 text-center mt-8">
         <a
           href="/granite"
           target="_blank"
@@ -66,7 +68,7 @@ const MarbleCollection = () => {
           See More
         </a>
 
-      </div>
+      </div> */}
     </div>
   );
 };

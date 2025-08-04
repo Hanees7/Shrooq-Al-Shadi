@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Button } from "antd";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import cmpny_logo from "./cmpny_logo.png"
 
 const CompanySection = () => {
   const [isMobile, setIsMobile] = useState(false);
@@ -46,9 +47,9 @@ From classic cornices to modern design panels, every product reflects our dedica
           className="w-full md:w-1/2"
         >
           <img
-            src="https://images.unsplash.com/photo-1719931831772-ef3806485cdd?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            src={cmpny_logo}
             alt="Company Building"
-            className="rounded-lg shadow-lg md:w-[800px] md:h-[500px]"
+            className="rounded-lg shadow-lg md:w-[700px] md:h-[650px]"
           />
         </div>
         <div

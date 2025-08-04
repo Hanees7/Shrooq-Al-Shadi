@@ -6,20 +6,80 @@ import { Link } from "react-router-dom";
 
 const GallerySection = [
   {
-    // title: "Statuario Marble",
-    image: "https://images.unsplash.com/photo-1733431774078-692252a6605e?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    title: "Reg Gypsum Board",
+    image: "https://5.imimg.com/data5/SELLER/Default/2022/7/CJ/EY/NE/150854037/paper-gypsum-board-500x500.jpg",
   },
   {
-    // title: "Spider Green Marble",
-    image: "https://plus.unsplash.com/premium_photo-1680529431114-fe58e182bbd3?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    title: "Mr Gypsum Board",
+    image: "https://s.alicdn.com/@sc04/kf/Hec6502f07b924f0cb700157b8fa50151d.jpg",
   },
   {
-    // title: "Fantasy Brown Marble",
-    image: "https://images.unsplash.com/photo-1715606424329-822c20766da8?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    title: "Fr Gypsum Board",
+    image: "https://tiimg.tistatic.com/fp/1/004/955/fire-rated-gypsum-board-833.jpg",
   },
   {
-    // title: "Makrana Pink Marble",
-    image: "https://images.unsplash.com/photo-1585929326215-d33161ec8b25?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    title: "Gypsum Powder",
+    image: "https://5.imimg.com/data5/ANDROID/Default/2024/7/438843263/CQ/UG/LW/124686755/product-jpeg-500x500.jpg",
+  },
+  {
+    title: "Joint Compound",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYWdd7y-6m3qUAcBjqSbWanwXXbYeHA0D7_ge69RT_YQn6dR23bwwzre2H_OaM5SlwSkA&usqp=CAU",
+  },
+  {
+    title: "Main Channel",
+    image: "https://5.imimg.com/data5/QD/QA/TQ/ANDROID-102786920/product-jpeg-500x500.jpg",
+  },
+  {
+    title: "Wall Angel",
+    image: "https://m.media-amazon.com/images/I/51hFbumsYLL._UF1000,1000_QL80_.jpg",
+  },
+  {
+    title: "Furring Channel",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVBpRr7YSskHhmLnvL0J8qagEhQnw3VqihXQ&s",
+  },
+  {
+    title: "GI Track",
+    image: "https://ik.imagekit.io/fepy/cdn/catalog/product/2/6/2627-gi_track_50mm_2_.png",
+  },
+  {
+    title: "Joint Tap",
+    image: "https://i.ebayimg.com/images/g/g-4AAeSwbABnsZm8/s-l400.jpg",
+  },
+  {
+    title: "GI Stud",
+    image: "https://content.jdmagicbox.com/quickquotes/images_main/gi-stud-copper-l-shape-polished-painted-cladding-802920013-ba7kzd98.png?impolicy=queryparam&im=Resize=(360,360),aspect=fit",
+  },
+  {
+    title: "Aluminum Shadow Angel",
+    image: "https://cdn.moglix.com/p/k2Sz53j3uYkPV-xxlarge.jpg",
+  },
+  {
+    title: "Flasher Plug",
+    image: "https://s.alicdn.com/@sc04/kf/Hac9ad6335ce949a98c5350340733e0c1q/4mm-Plastic-Wall-Plug-6mm-Fish-Screw-Anchor-8-mm-Plastic-Anchor-8mm-Plastic-Wall-Plug.jpg",
+  },
+  {
+    title: "Ceiling Tee Grids",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZwKa97iQx6FGZd2nk3v3VA6zGaNraQZUgWw&s",
+  },
+  {
+    title: "Access Panel",
+    image: "https://5.imimg.com/data5/ANDROID/Default/2023/5/305060248/KJ/HA/YD/15247252/product-jpeg-500x500.jpg",
+  },
+  {
+    title: "Drywall Screw",
+    image: "https://static1.industrybuying.com/products/fasteners/screws/drywall-screw/FAS.DRY.223548962_1701870427884.webp",
+  },
+  {
+    title: "Rock wool",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQx4iGo73sJ2btYpyQRFPp4GVJkMdmXkBfWsw&s",
+  },
+  {
+    title: "Cement Sheet",
+    image: "https://image.made-in-china.com/2f0j00ANYWvamlSKkh/Interior-Standard-Thickness-and-Size-Fibre-Cement-Sheet-and-Exterior-Wall-Cement-Panel.webp",
+  },
+  {
+    title: "Drywall Tools",
+    image: "https://i0.wp.com/gnhlumber.com/wp-content/uploads/2022/11/Must-have-Tools.webp?fit=850%2C650&ssl=1",
   },
 ];
 
@@ -32,12 +92,10 @@ const Quartz = () => {
     <section className="bg-white py-16 px-4 md:px-12">
       <div className="text-center mb-12" data-aos="flip-left">
         <h2 className="text-4xl font-bold text-gray-800 relative inline-block">
-          Quartz stone
+          {/* All Other Products */}
+          All Products
           <span className="block w-20 h-1 bg-red-500 mx-auto mt-2 rounded-full"></span>
         </h2>
-        {/* <p className="text-gray-500 mt-4 text-lg">
-          Explore our collection of premium imported marble designs.
-        </p> */}
       </div>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
@@ -51,7 +109,7 @@ const Quartz = () => {
             <img
               src={item.image}
               alt={item.title}
-              className="w-full h-56 sm:h-64 md:h-72 object-cover transition-transform duration-500 hover:scale-110"
+              className="w-full h-56 sm:h-64 md:h-92 object-cover transition-transform duration-500 hover:scale-110"
             />
             <div className="p-4 flex items-center justify-center gap-2">
               <div className="w-3 h-3 bg-red-500 rounded-full"></div>
@@ -63,7 +121,7 @@ const Quartz = () => {
         ))}
 
       </div>
-      <div className="p-4 text-center mt-8">
+      {/* <div className="p-4 text-center mt-8">
         <a
           href="/quartz"
           target="_blank"
@@ -73,7 +131,7 @@ const Quartz = () => {
           See More
         </a>
 
-      </div>
+      </div> */}
     </section>
   );
 };
