@@ -9,6 +9,8 @@ import gypsum_powder from '../assets/images/gypsum_powder.png';
 import partition_boards from '../assets/images/partition_boards.png';
 // import board2 from '../assets/images/board2.png';
 import board3 from '../assets/images/board3.png';
+import board1 from '../assets/images/board1.jpeg';
+
 // import board4 from '../assets/images/board4.jpeg';
 
 const Home = () => {
@@ -39,7 +41,7 @@ const Home = () => {
   };
 
   const images = [
-    partition_boards,gypsum_powder,board3
+    partition_boards,board1,gypsum_powder,board3
     // 'https://images.unsplash.com/photo-1682888813789-c39fe30921e2?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     // 'https://images.unsplash.com/photo-1633119713175-c53c29479984?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
   ];
@@ -57,7 +59,7 @@ const Home = () => {
             />
             {index === 0 && (
               <div className="absolute inset-0 flex flex-col items-center justify-center text-center bg-opacity-100 mt-70">
-                <h2 className="text-white text-3xl md:text-7xl font-extrabold font-poppins whitespace-normal break-words text-center">
+                <h2 className="text-white text-3xl md:text-6xl font-extrabold font-poppins whitespace-normal break-words text-center">
                   {["Shrooq Al Shadi – ", "High quality gypsum décor."].map((word, index) => (
                     <span key={index} className="block md:inline">
                       {Array.from(word).map((char, i) => (
