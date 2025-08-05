@@ -10,6 +10,7 @@ import partition_boards from '../assets/images/partition_boards.png';
 // import board2 from '../assets/images/board2.png';
 import board3 from '../assets/images/board3.png';
 import board1 from '../assets/images/board1.jpeg';
+// import board5 from '../assets/images/board5.jpeg';
 
 // import board4 from '../assets/images/board4.jpeg';
 
@@ -41,7 +42,7 @@ const Home = () => {
   };
 
   const images = [
-    partition_boards,board1,gypsum_powder,board3
+    partition_boards,board1,board3
     // 'https://images.unsplash.com/photo-1682888813789-c39fe30921e2?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     // 'https://images.unsplash.com/photo-1633119713175-c53c29479984?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
   ];
@@ -54,12 +55,12 @@ const Home = () => {
             <img
               src={image}
               alt={`Slide ${index + 1}`}
-              className="w-[full] h-[70vh] sm:h-[60vh] lg:h-screen max-sm:object-cover mt-10"
+              className="w-[full] h-[70vh] sm:h-[60vh] lg:h-screen max-sm:object-contain mt-10"
 
             />
             {index === 0 && (
-              <div className="absolute inset-0 flex flex-col items-center justify-center text-center bg-opacity-100 mt-70">
-                <h2 className="text-white text-3xl md:text-6xl font-extrabold font-poppins whitespace-normal break-words text-center">
+              <div className="absolute inset-0 flex flex-col items-center justify-center text-center bg-opacity-100">
+                <h2 className=" py-3 text-white px-2 text-2xl md:text-6xl font-extrabold font-poppins whitespace-normal break-words text-center">
                   {["Shrooq Al Shadi – ", "High quality gypsum décor."].map((word, index) => (
                     <span key={index} className="block md:inline">
                       {Array.from(word).map((char, i) => (
@@ -77,7 +78,7 @@ const Home = () => {
                   ))}
                 </h2>
                 <p
-                  className="text-white text-2xl sm:text-base md:text-lg lg:text-lg font-semibold mt-6 font-poppins opacity-0 animate-softZoom max-w-3xl mx-auto px-4"
+                  className=" text-white text-md sm:text-base md:text-lg lg:text-lg font-semibold mt-6 font-poppins opacity-0 animate-softZoom max-w-3xl mx-auto px-4"
                   data-aos="zoom-in"
                   data-aos-delay="400"
                   data-aos-duration="1000"

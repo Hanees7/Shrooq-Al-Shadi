@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import Footer from "../components/Footer";
 import board4 from '../assets/images/board4.jpeg';
-import HoNavbarme from '../components/Navbar'
+// import HoNavbarme from '../components/Navbar'
 
 
 const galleryItems = [
@@ -72,6 +72,7 @@ const galleryItems = [
 // " /assetess/SAS/WhatsApp Image 2025-08-02 at 6.10.43 PM (1).jpeg",
 " /assetess/SAS/WhatsApp Image 2025-08-03 at 4.45.59 PM.jpeg",
 
+
 ]
 
 
@@ -82,7 +83,7 @@ function GalleryMore() {
 
   return (
     <>
-    <HoNavbarme/>
+    {/* <HoNavbarme/> */}
       <div className="bg-gradient-to-br from-white to-gray-100 py-16 px-4 md:px-12 min-h-screen">
         <div className="text-center mb-12">
           <h2 className="text-5xl font-extrabold text-gray-800 relative inline-block mb-2">

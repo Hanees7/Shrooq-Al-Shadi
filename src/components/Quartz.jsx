@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { Link } from "react-router-dom";
-
+import board5Image from '../../src/assets/images/board5.jpeg';
 
 const GallerySection = [
   {
@@ -18,8 +18,19 @@ const GallerySection = [
     image: "https://tiimg.tistatic.com/fp/1/004/955/fire-rated-gypsum-board-833.jpg",
   },
   {
-    title: "Gypsum Powder",
-    image: "https://5.imimg.com/data5/ANDROID/Default/2024/7/438843263/CQ/UG/LW/124686755/product-jpeg-500x500.jpg",
+  //   title: "Gypsum Powder",
+  //   // image: "https://5.imimg.com/data5/ANDROID/Default/2024/7/438843263/CQ/UG/LW/124686755/product-jpeg-500x500.jpg",
+  //   image:"../../src/assets/images/board5.jpeg",
+  //    style: {
+  //   objectFit: "contain",
+  //   width: "100%",
+  //   height: "100%"
+  // }
+  title: "Gypsum Powder",
+  image: board5Image,
+  style: {
+    objectFit: "contain",
+  }
   },
   {
     title: "Joint Compound",
@@ -110,6 +121,11 @@ const Quartz = () => {
               src={item.image}
               alt={item.title}
               className="w-full h-56 sm:h-64 md:h-92 object-cover transition-transform duration-500 hover:scale-110"
+              style={{
+        ...(item.title === "Gypsum Powder" ? {
+          objectFit: "contain",
+        } : {}),
+      }}
             />
             <div className="p-4 flex items-center justify-center gap-2">
               <div className="w-3 h-3 bg-red-500 rounded-full"></div>
