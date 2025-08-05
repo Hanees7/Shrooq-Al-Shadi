@@ -120,7 +120,7 @@ const Quartz = () => {
             <img
               src={item.image}
               alt={item.title}
-              className="w-full h-56 sm:h-64 md:h-92 object-cover transition-transform duration-500 hover:scale-110"
+              className="w-full h-56 sm:h-64 md:h-92 object-cover transition-transform duration-500 hover:scale-110 cursor-none"
               style={{
         ...(item.title === "Gypsum Powder" ? {
           objectFit: "contain",

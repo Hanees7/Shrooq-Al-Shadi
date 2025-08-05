@@ -49,7 +49,7 @@ const Home = () => {
 
   return (
     <section className="overflow-hidden">
-      <OwlCarousel className="owl-theme" {...options}>
+      <OwlCarousel className="owl-theme lg:mt-14" {...options}>
         {images.map((image, index) => (
           <div key={index} className="relative">
             <img

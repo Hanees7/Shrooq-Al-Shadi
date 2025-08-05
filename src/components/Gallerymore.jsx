@@ -107,7 +107,7 @@ function GalleryMore() {
               <img
                 src={item}
                 alt={`Marble texture ${index + 1}`}
-                className="w-full h-70 object-cover transform group-hover:scale-110 transition duration-500"
+                className="w-full h-70 object-cover transform group-hover:scale-110 transition duration-500 cursor-none"
               />
             </a>
           ))}

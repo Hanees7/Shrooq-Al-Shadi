@@ -9,10 +9,15 @@ const CompanySection = () => {
   const [readMore, setReadMore] = useState(false);
   const [companyData] = useState(`
     <p>
-     Shrooq Al Shadi is a leading gypsum décor manufacturing and supply company based in Oman, specializing in premium-quality gypsum products for residential, commercial, and industrial spaces. With a strong commitment to craftsmanship, innovation, and precision, we deliver a wide range of decorative and structural gypsum solutions designed to elevate interiors and enhance architectural aesthetics. <br /><br />
+    Shrooq Al Shadi is a leading gypsum décor manufacturing and supply company based in the heart of Oman,
+     renowned for delivering premium-quality gypsum products tailored for residential, commercial, and industrial applications.
+      With a foundation built on craftsmanship, innovation, and precision, we bring a legacy of
+       excellence to every corner, ceiling, and wall we touch.<br /><br />
 
-From classic cornices to modern design panels, every product reflects our dedication to quality, durability, and design excellence. <br /><br />
-
+Our extensive portfolio includes everything from timeless classic cornices and ceiling roses to sleek modern panels, artistic wall claddings, 
+and intricate custom-moulded designs. Each product is meticulously crafted using high-grade materials and cutting-edge manufacturing techniques 
+to ensure superior finish, durability, and aesthetic appeal. <br /><br />At Shrooq Al Shadi, we understand that interiors are more than just spaces—they are reflections of personality, culture, and functionality. That’s why we work closely with architects, interior designers, contractors, and homeowners to create gypsum solutions that harmonize with their vision while meeting the highest industry standards.
+<br /><br />
     Whether you’re building, renovating, or designing interiors, Shrooq Al Shadi provides the materials and expertise to bring your vision to life  <br />
       Trust us to turn your vision into reality — with precision, elegance, and trust.
     </p>

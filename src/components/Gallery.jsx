@@ -44,7 +44,7 @@ const GallerySection = () => {
       </div>
 
       <div className="mt-16">
-        <div className="justify-center grid grid-cols-2 gap-4 md:flex md:space-x-6">
+        <div className="justify-center grid grid-cols-1 gap-4 md:flex md:space-x-6">
           {galleryItems.map((item, index) => (
             <div
               key={index}
@@ -54,7 +54,7 @@ const GallerySection = () => {
               <img
                 src={item.image}
                 alt={item.title}
-                className="w-full transform transition duration-500 hover:scale-110 object-cover"
+                className="w-full transform transition duration-500 hover:scale-110 object-cover cursor-none"
               />
               
               <div className="p-4 flex items-center mt-2">
