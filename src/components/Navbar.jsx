@@ -62,7 +62,7 @@
 
 import React, { useState } from "react";
 import { BsFillTelephoneFill } from 'react-icons/bs';
-import logo from './saslogo.png';
+import logo from './Sas_img.png';
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -76,7 +76,7 @@ export default function Navbar() {
       <a href="#" className="text-white text-xl font-bold">
         <img
           src={logo}
-          className="h-16 md:h-24 max-md:ml-0"
+          className="h-16 md:h-30 max-md:ml-0"
           alt="Logo"
         />
       </a>

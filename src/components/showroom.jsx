@@ -36,7 +36,7 @@ Our expert team is ready to guide you through the selection process and help you
 
       <div className="mt-6" data-aos="fade-up" data-aos-delay="600">
         <a
-          href="https://wa.me/919694944389?text=Hello,%20I%20am%20interested%20in%20your%20products!"
+          href="https://wa.me/+96872402786?text=Hello,%20I%20am%20interested%20in%20your%20products!"
           target="_blank"
           rel="noopener noreferrer"
         >

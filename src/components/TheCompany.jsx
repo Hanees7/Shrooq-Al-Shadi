@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Button } from "antd";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import cmpny_logo from "./cmpny_logo.png"
+import cmpny_logo from "./SAS LOGO 2.png"
 
 const CompanySection = () => {
   const [isMobile, setIsMobile] = useState(false);

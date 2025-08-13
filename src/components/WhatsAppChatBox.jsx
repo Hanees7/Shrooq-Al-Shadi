@@ -34,7 +34,7 @@ const WhatsAppChatBox = () => {
             Simply type "Hi" to start a conversation with us.
           </div>
           <a
-            href="https://wa.me/919694944389"
+            href="https://wa.me/+96872402786"
             target="_blank"
             rel="noopener noreferrer"
             className="block bg-green-500 text-white text-center py-2 rounded-lg mt-4 hover:bg-green-600 transition"
