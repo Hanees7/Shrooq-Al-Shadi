@@ -200,7 +200,7 @@ export default function Footer() {
       </div>
 
       <div className="text-center p-4 bg-black">
-    ⓒ Copyright 2004 Shrooq Al Shadi. All rights reserved.
+    ⓒ Copyright 2005 Shrooq Al Shadi. All rights reserved.
       </div>
     </footer>
   );

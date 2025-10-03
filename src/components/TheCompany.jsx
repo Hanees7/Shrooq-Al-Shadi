@@ -3,6 +3,7 @@ import { Button } from "antd";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import cmpny_logo from "./SAS LOGO 2.png"
+import logo1 from './Original_logo.jpg' 
 
 const CompanySection = () => {
   const [isMobile, setIsMobile] = useState(false);
@@ -52,9 +53,9 @@ to ensure superior finish, durability, and aesthetic appeal. <br /><br />At Shro
           className="w-full md:w-1/2"
         >
           <img
-            src={cmpny_logo}
+            src={logo1}
             alt="Company Building"
-            className="rounded-lg shadow-lg md:w-[700px] md:h-[650px]"
+            className="rounded-lg shadow-lg md:w-[700px] md:h-[500px]"
           />
         </div>
         <div
