@@ -10,15 +10,22 @@ const CompanySection = () => {
   const [readMore, setReadMore] = useState(false);
   const [companyData] = useState(`
     <p>
-    Shrooq Al Shadi is a leading gypsum décor manufacturing and supply company based in the heart of Oman,
-     renowned for delivering premium-quality gypsum products tailored for residential, commercial, and industrial applications.
-      With a foundation built on craftsmanship, innovation, and precision, we bring a legacy of
-       excellence to every corner, ceiling, and wall we touch.<br /><br />
+    Our company, Shrooq al Shadi, began its journey in 2005 in Oman, starting with gypsum decoration work in Ruwi and Muttrah. Initially, we specialized in cornice sets, jabiyas, and other gypsum designs.<br/> <br/>
 
-Our extensive portfolio includes everything from timeless classic cornices and ceiling roses to sleek modern panels, artistic wall claddings, 
-and intricate custom-moulded designs. Each product is meticulously crafted using high-grade materials and cutting-edge manufacturing techniques 
-to ensure superior finish, durability, and aesthetic appeal. <br /><br />At Shrooq Al Shadi, we understand that interiors are more than just spaces—they are reflections of personality, culture, and functionality. That’s why we work closely with architects, interior designers, contractors, and homeowners to create gypsum solutions that harmonize with their vision while meeting the highest industry standards.
-<br /><br />
+Gradually, we expanded our services and today we work in Gypsum Boards, Cement Boards, Gypsum Tiles, and Putty – delivering high-quality products and elegant designs.<br/> <br/>
+
+Currently, Shrooq al Shadi has three branches in Oman:
+<br/>
+	•	Al Mabellah Saneha
+  <br/> 
+	•	Al Amrat Saneha
+<br/>
+  •	Samail
+<br/> <br/>
+
+Our mission is to provide our clients with premium quality, innovative designs, and trusted service.<br/>
+Our dedicated team ensures that every project is completed with excellence and attention to detail.
+<br/> <br/>
     Whether you’re building, renovating, or designing interiors, Shrooq Al Shadi provides the materials and expertise to bring your vision to life  <br />
       Trust us to turn your vision into reality — with precision, elegance, and trust.
     </p>

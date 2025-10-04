@@ -18,6 +18,7 @@ import WhatsAppChatBox from '../components/WhatsAppChatBox'
 import TrustedCertified from '../components/certified'
 import VisitShowroom from '../components/showroom'
 import Quartz from '../components/Quartz'
+import Founder from '../components/Founder';
 
 
 
@@ -27,12 +28,13 @@ function Mainpage() {
     <HoNavbarme/>
     <WhatsAppChatBox/>
     <Home/>
-    <CompanySection/>
+    <Founder/>
      <MarbleCollection/>
     {/* <GallerySection/>  */}
     <Quartz/>
     {/* <TrustedCertified/> */}
     {/* <EventsSection/> */}
+    <CompanySection/>
     <VisitShowroom/>
     <Footer/>
 

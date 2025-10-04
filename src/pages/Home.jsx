@@ -10,6 +10,7 @@ import partition_boards from '../assets/images/partition_boards.png';
 // import board2 from '../assets/images/board2.png';
 import board3 from '../assets/images/board3.png';
 import board1 from '../assets/images/board1.jpeg';
+import Aiimg from '../assets/images/aiImg.jpeg';
 // import board5 from '../assets/images/board5.jpeg';
 
 // import board4 from '../assets/images/board4.jpeg';
@@ -42,7 +43,7 @@ const Home = () => {
   };
 
   const images = [
-    partition_boards,board1,board3
+    partition_boards,board1,board3,Aiimg
     // 'https://images.unsplash.com/photo-1682888813789-c39fe30921e2?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     // 'https://images.unsplash.com/photo-1633119713175-c53c29479984?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
   ];
